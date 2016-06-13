@@ -1,0 +1,54 @@
+\documentclass[DIN, parskip=half,% pagenumber=botcenter
+               fromalign=left, fromphone=false,%  
+               fromemail=true, fromurl=false, %
+               fromlogo=false, fromrule=true]{scrlttr2}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{times}
+\usepackage{ngerman}
+\usepackage{tabularx}
+\RequirePackage{graphicx}
+
+\setkomavar{fromname}{\sffamily Max Mustermann}
+\setkomavar{fromaddress}{\sffamily Musterstraße 42, 12345 Musterstadt}
+\setkomavar{fromemail}{\sffamily max@mustermann.de}
+\setkomavar{signature}{Max Mustermann}
+%\setkomavar{fromlogo}{\includegraphics*[width=2cm]{logo}}
+
+\begin{document}
+% If you want headings on subsequent pages,
+% remove the ``%'' on the next line:
+% \pagestyle{headings}
+
+\begin{letter}{
+Institut für Softwaretechnologie\\
+z.Hd. Dr. André van Hoorn\\
+Universitätsstraße 38\quad\\[0.5cm]
+70596 Stuttgart%
+}
+
+\opening{
+\begin{large}
+\textbf{Antrag auf Genehmigung der Masterarbeit in englischer Sprache}
+\end{large}\\[0.5cm]
+Sehr geehrter Dr. van Hoorn,}
+
+hiermit beantrage ich die Genehmigung meine Masterarbeit mit dem Titel\\
+\textbf{\glqq{}Masterarbeitstitel\grqq{}}\\
+in englischer Sprache verfassen zu dürfen.
+
+Ich willige gemäß §23, Absatz 6 der Prüfungsordnung für den Masterstudiengang Softwaretechnik (Stand
+12. Juli 2012) ein, zusätzlich zur englischsprachigen Zusammenfassung (\glqq{}Abstract\grqq{}) im Anhang der Arbeit eine
+Zusammenfassung in deutscher Sprache beizufügen.
+
+
+% \enlargethispage{3cm}
+
+
+\closing{Mit freundlichen Grüßen}
+
+
+\end{letter}
+\end{document}
